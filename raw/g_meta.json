@@ -1,0 +1,854 @@
+{
+"g_002": {
+"src": "aic:885",
+"title": "A Mounted Officer",
+"artist": "Jean Baptiste Edouard Detaille (French, 1848–1912)",
+"q": "office clerk"
+},
+"g_003": {
+"src": "aic:14591",
+"title": "Woman Reading",
+"artist": "Édouard Manet (French, 1832–1883)",
+"q": "woman reading"
+},
+"g_008": {
+"src": "aic:29292",
+"title": "Woman Reading",
+"artist": "Rembrandt van Rijn\nDutch, 1606-1669",
+"q": "woman reading"
+},
+"g_010": {
+"src": "aic:155626",
+"title": "Shylock",
+"artist": "John Hamilton Mortimer\nEnglish, 1740-1779",
+"q": "merchant counting"
+},
+"g_015": {
+"src": "aic:140641",
+"title": "Count Robert de Montesquiou-Fezensac",
+"artist": "Henri Charles Guérard (French, 1846-1897)\nafter James McNeill Whistler (American, 1834-1903)",
+"q": "merchant counting"
+},
+"g_016": {
+"src": "aic:80499",
+"title": "Dorothea and Francesca",
+"artist": "Cecilia Beaux (American, 1855–1942)",
+"q": "family dinner"
+},
+"g_018": {
+"src": "aic:150054",
+"title": "Elizabeth Grant Bankson Beatty (Mrs. James Beatty) and Her Daughter Susan",
+"artist": "Joshua Johnson (American, c. 1763–after 1825)",
+"q": "family dinner"
+},
+"g_019": {
+"src": "aic:107836",
+"title": "Portrait of Luigi Edouardo Rossi, Count Pellegrino",
+"artist": "Follower of Jean Auguste Dominique Ingres (French, 1780–1867)",
+"q": "merchant counting"
+},
+"g_020": {
+"src": "aic:97898",
+"title": "Paddling the Wounded British Officer",
+"artist": "Frederic Remington (American, 1861–1909)",
+"q": "office clerk"
+},
+"g_022": {
+"src": "aic:52819",
+"title": "Box Office",
+"artist": "Félix Edouard Vallotton\nFrench, born Switzerland, 1865-1925",
+"q": "office clerk"
+},
+"g_025": {
+"src": "met:399843",
+"title": "The Industrious 'Prentice Alderman of London, The Idle One Brought Before Him and Impeached by his Accomplices (Industry and Idleness, plate 10)",
+"artist": "William Hogarth",
+"q": "office clerk"
+},
+"g_026": {
+"src": "met:435991",
+"title": "A Woman Reading",
+"artist": "Camille Corot",
+"q": "woman reading"
+},
+"g_028": {
+"src": "met:415399",
+"title": "Hudibras and the Lawyer (Plate 12: Illustrations to Samuel Butler's Hudibras)",
+"artist": "William Hogarth",
+"q": "office clerk"
+},
+"g_031": {
+"src": "met:400732",
+"title": "Hudibras and the Lawyer (Twelve Large Illustrations for Samuel Butler's Hudibras, Plate 12)",
+"artist": "William Hogarth",
+"q": "office clerk"
+},
+"g_033": {
+"src": "aic:887",
+"title": "Landscape with Figures",
+"artist": "Narcisse Virgile Diaz de la Peña (French, 1807–1876)",
+"q": "city street night"
+},
+"g_036": {
+"src": "aic:24674",
+"title": "The Oude Kerk, Delft",
+"artist": "Cornelis de Man (Dutch, 1621–1706)",
+"q": "lonely man"
+},
+"g_041": {
+"src": "aic:16797",
+"title": "The Lone Boat, North Woods Club, Adirondacks",
+"artist": "Winslow Homer\nAmerican, 1836-1910",
+"q": "lonely man"
+},
+"g_045": {
+"src": "met:788059",
+"title": "Wet Under Foot",
+"artist": "Thomas Rowlandson",
+"q": "rainy street"
+},
+"g_047": {
+"src": "met:788064",
+"title": "Muck'y Weather",
+"artist": "Thomas Rowlandson",
+"q": "rainy street"
+},
+"g_051": {
+"src": "aic:124660",
+"title": "The Tapestry Worker",
+"artist": "Jacques Fabien Gautier D'Agoty (French, 1710-1781)\nafter Jean Siméon Chardin (French, 1699-1779)",
+"q": "worker"
+},
+"g_053": {
+"src": "aic:51704",
+"title": "Honest Worker",
+"artist": "Théophile-Alexandre Steinlen\nFrench, born Switzerland, 1859-1923",
+"q": "worker"
+},
+"g_055": {
+"src": "aic:7803",
+"title": "Worker and Bourgeois, from Les Parisiens En 1848",
+"artist": "Honoré Victorin Daumier\nFrench, 1808-1879",
+"q": "worker"
+},
+"g_056": {
+"src": "aic:86780",
+"title": "Mother and Child",
+"artist": "Julius Gari Melchers (American, 1860–1932)",
+"q": "mother and child"
+},
+"g_057": {
+"src": "aic:47153",
+"title": "Mother and Child on a Seashore",
+"artist": "Jozef Israëls (Dutch, 1824–1911)",
+"q": "mother and child"
+},
+"g_058": {
+"src": "aic:39269",
+"title": "Peasant Mother and Child",
+"artist": "Mary Cassatt\nAmerican, 1844-1926",
+"q": "mother and child"
+},
+"g_067": {
+"src": "met:889925",
+"title": "Woman Reading to Children",
+"artist": "Virginia Granbery",
+"q": "woman reading"
+},
+"g_068": {
+"src": "aic:90048",
+"title": "Distant View of Niagara Falls",
+"artist": "Thomas Cole (American, born England, 1801–1848)",
+"q": "friends drinking"
+},
+"g_069": {
+"src": "aic:223728",
+"title": "A French Market Scene, possibly Boulogne",
+"artist": "David Cox\nEnglish, 1783-1859",
+"q": "market scene"
+},
+"g_070": {
+"src": "met:364908",
+"title": "Man and Woman Reading",
+"artist": "Gabriel Huquier",
+"q": "woman reading"
+},
+"g_074": {
+"src": "aic:896",
+"title": "The Road to Market",
+"artist": "Constant Troyon (French, 1810–1865)",
+"q": "market scene"
+},
+"g_076": {
+"src": "aic:9",
+"title": "Interior of St. Mark's, Venice",
+"artist": "David Dalhoff Neal (American, 1838–1915)",
+"q": "cafe interior"
+},
+"g_080": {
+"src": "aic:59908",
+"title": "In the Café",
+"artist": "Fernand Lungren (American, 1857–1932)",
+"q": "cafe interior"
+},
+"g_083": {
+"src": "aic:13508",
+"title": "The Letter",
+"artist": "Mary Cassatt (American, 1844-1926)\nprinted with Leroy (French, active 1876-1900)",
+"q": "cafe interior"
+},
+"g_090": {
+"src": "met:789267",
+"title": "Quae Genus Engaged with Jovial Friends; Or–Who Sings Best?",
+"artist": "Thomas Rowlandson",
+"q": "friends drinking"
+},
+"g_091": {
+"src": "met:788321",
+"title": "Madame Very Restauranteur, Palais Royal Paris and La Belle Liminaudiere au Caffee De Mille Collone, Palais Royale Paris",
+"artist": "Thomas Rowlandson",
+"q": "cafe interior"
+},
+"g_093": {
+"src": "met:729222",
+"title": "Market Scene in City with the Parable of the Laborers in the Vineyard in the Background",
+"artist": "Jacob Matham",
+"q": "market scene"
+},
+"g_095": {
+"src": "met:788248",
+"title": "Cracking a Joke!!",
+"artist": "Thomas Rowlandson",
+"q": "friends drinking"
+},
+"g_096": {
+"src": "met:649824",
+"title": "Gruss aus dem Café zum \"Fenstergucker\"",
+"artist": "Gustav Kalhammer",
+"q": "cafe interior"
+},
+"g_097": {
+"src": "met:729624",
+"title": "Market Scene, the Rest on the Flight into Egypt in the Background, from Kitchen and Market Scenes with Biblical Scenes in the Background",
+"artist": "Jacob Matham",
+"q": "market scene"
+},
+"g_098": {
+"src": "met:735271",
+"title": "Wet Parsons",
+"artist": "Thomas Rowlandson",
+"q": "lonely man"
+},
+"g_100": {
+"src": "aic:44742",
+"title": "Are They Thinking about the Grape? (Pensent-ils au raisin?)",
+"artist": "François Boucher (French, 1703–1770)",
+"q": "man thinking"
+},
+"g_104": {
+"src": "aic:114337",
+"title": "Hilly Landscape at Sunset",
+"artist": "Style of John Varley\nEnglish, 1778-1842",
+"q": "sunset landscape"
+},
+"g_106": {
+"src": "met:333914",
+"title": "A Man Reading in a Garden (recto); Preliminary sketch for a Man Reading in a Garden (verso)",
+"artist": "Honoré Daumier",
+"q": "man thinking"
+},
+"g_110": {
+"src": "met:392854",
+"title": "Bust portrait of Frans Floris",
+"artist": "Giulio Bonasone",
+"q": "man thinking"
+},
+"g_112": {
+"src": "met:437191",
+"title": "Landscape at Sunset",
+"artist": "Aert van der Neer",
+"q": "sunset landscape"
+},
+"g_114": {
+"src": "met:755070",
+"title": "Election reform in England, from 'News of the day,' published in Le Charivari, February 26, 1866",
+"artist": "Honoré Daumier",
+"q": "man thinking"
+},
+"g_117": {
+"src": "met:459096",
+"title": "Landscape with Ducks",
+"artist": "Charles-François Daubigny",
+"q": "sunset landscape"
+},
+"g_118": {
+"src": "met:435964",
+"title": "Landscape with Figures (Les Bohémiens)",
+"artist": "Camille Corot",
+"q": "sunset landscape"
+},
+"g_120": {
+"src": "met:754531",
+"title": "So, what do you think... will it be difficult getting a good price for this sketch?, from 'The artists,' published in Le Charivari, January 19, 1865",
+"artist": "Honoré Daumier",
+"q": "man thinking"
+},
+"g_121": {
+"src": "met:904343",
+"title": "Mary Magdalen Writing a Letter",
+"artist": "Master of the Female Half-Lengths",
+"q": "letter writing"
+},
+"g_123": {
+"src": "met:460044",
+"title": "A View of Moulins",
+"artist": "Henri-Joseph Harpignies",
+"q": "sunset landscape"
+},
+"g_124": {
+"src": "met:754496",
+"title": "Coffee house politics, from 'The good bourgeois,' published in \"Le Charivari\", April 21, 1864",
+"artist": "Honoré Daumier",
+"q": "man thinking"
+},
+"g_126": {
+"src": "met:754138",
+"title": "I think I have given sufficient proof that my client has been deceived, from 'The difficult moments of life'",
+"artist": "Honoré Daumier",
+"q": "man thinking"
+},
+"g_128": {
+"src": "aic:18743",
+"title": "A Roadside Tavern",
+"artist": "Johan Barthold Jongkind (Dutch, 1819-1891)",
+"q": "tavern"
+},
+"g_131": {
+"src": "aic:114548",
+"title": "Women Bathing in Pond",
+"artist": "John William Taverner\nEnglish, 1703-1772",
+"q": "tavern"
+},
+"g_145": {
+"src": "aic:66",
+"title": "A Young Man Caressing the Young Hostess",
+"artist": "Cornelis Pietersz Bega\nDutch, 1631/32-1664",
+"q": "young man portrait"
+},
+"g_146": {
+"src": "met:395367",
+"title": "Trafalgar Tavern, Greenwich",
+"artist": "James Tissot",
+"q": "tavern"
+},
+"g_148": {
+"src": "met:704425",
+"title": "Yacht Tavern, Erith",
+"artist": "Sir Francis Seymour Haden",
+"q": "tavern"
+},
+"g_155": {
+"src": "aic:776",
+"title": "Portrait of a Woman",
+"artist": "Karl Koepping (German, 1848-1914)\nafter Rembrandt van Rijn (Dutch, 1606-1669)",
+"q": "woman portrait"
+},
+"g_157": {
+"src": "aic:149489",
+"title": "Woman at a Window",
+"artist": "Jean Pierre Norblin De La Gourdaine (French, 1745-1830)\nafter Ferdinand Bol (Dutch, 1616-1680)Jean Pierre Norblin De La Gourdaine",
+"q": "woman at window"
+},
+"g_164": {
+"src": "aic:79765",
+"title": "Portrait of a Woman",
+"artist": "John Wollaston (American, born England, c. 1710–c. 1775)",
+"q": "woman portrait"
+},
+"g_165": {
+"src": "aic:181616",
+"title": "Self-Portrait Etching at a Window",
+"artist": "Rembrandt van Rijn\nDutch, 1606-1669",
+"q": "woman at window"
+},
+"g_166": {
+"src": "aic:268344",
+"title": "The Game of Cards",
+"artist": "Jan Gillisz. van Vliet\nDutch, c. 1610-after 1635",
+"q": "card game"
+},
+"g_170": {
+"src": "aic:9381",
+"title": "Head of an Old Woman (so-called portrait of Visscher's mother)",
+"artist": "Cornelis Visscher\nDutch, c. 1629-1658",
+"q": "woman portrait"
+},
+"g_173": {
+"src": "met:459054",
+"title": "Portrait of a Young Man",
+"artist": "Hans Memling",
+"q": "young man portrait"
+},
+"g_177": {
+"src": "met:436630",
+"title": "Portrait of a Woman",
+"artist": "Adriaen Hanneman",
+"q": "woman portrait"
+},
+"g_181": {
+"src": "met:398748",
+"title": "Portrait of a Young Woman",
+"artist": "Wenceslaus Hollar",
+"q": "woman portrait"
+},
+"g_184": {
+"src": "met:436986",
+"title": "Portrait of a Woman",
+"artist": "Quinten Massys",
+"q": "woman portrait"
+},
+"g_185": {
+"src": "aic:890",
+"title": "On the Road",
+"artist": "Jules Dupré (French, 1811–1889)",
+"q": "journey road"
+},
+"g_186": {
+"src": "met:459071",
+"title": "Portrait of a Woman",
+"artist": "Netherlandish or French",
+"q": "woman portrait"
+},
+"g_192": {
+"src": "aic:4796",
+"title": "Fishing Boats with Hucksters Bargaining for Fish",
+"artist": "Joseph Mallord William Turner (English, 1775–1851)",
+"q": "storm sea"
+},
+"g_197": {
+"src": "aic:96559",
+"title": "A Turn in the Road",
+"artist": "Alfred Sisley (British, active in France, 1839–1899)",
+"q": "journey road"
+},
+"g_200": {
+"src": "aic:889",
+"title": "Barks Fleeing Before the Storm",
+"artist": "Jules Dupré (French, 1811–1889)",
+"q": "storm sea"
+},
+"g_201": {
+"src": "aic:159761",
+"title": "The Library, from Vedute",
+"artist": "Canaletto\nItalian, 1697-1768",
+"q": "library"
+},
+"g_203": {
+"src": "met:811690",
+"title": "A Sea Storm",
+"artist": "Joseph Vernet",
+"q": "storm sea"
+},
+"g_206": {
+"src": "aic:65847",
+"title": "A Family Meal",
+"artist": "Evert Pieters (Dutch, 1856–1932)",
+"q": "family dinner"
+},
+"g_209": {
+"src": "aic:17161",
+"title": "Virgil Reading the \"Aeneid\" to Augustus, Octavia, and Livia",
+"artist": "Jean Baptiste Joseph Wicar (French, 1762–1834)",
+"q": "family dinner"
+},
+"g_212": {
+"src": "aic:16275",
+"title": "Holy Family",
+"artist": "South German",
+"q": "family dinner"
+},
+"g_214": {
+"src": "aic:19200",
+"title": "The Meeting of Gautier, Count of Antwerp, and his Daughter, Violante",
+"artist": "Giuseppe Cades (Italian, 1750–1799)",
+"q": "merchant counting"
+},
+"g_215": {
+"src": "aic:41114",
+"title": "Dunfermline",
+"artist": "John Clerk of Eldin\nScottish, 1728-1812",
+"q": "office clerk"
+},
+"g_218": {
+"src": "aic:61648",
+"title": "Johann Matthias, Count von Schulenburg.",
+"artist": "Giovanni Marco Pitteri (Italian, 1702-1786)\nafter Francesco Carlo Rusca (Italian, 1696-1769)",
+"q": "merchant counting"
+},
+"g_219": {
+"src": "aic:111736",
+"title": "Circassian Cavalry Awaiting their Commanding Officer at the Door of a Byzantine Monument; Memory of the Orient",
+"artist": "Alberto Pasini (Italian, 1826-1899)",
+"q": "office clerk"
+},
+"g_223": {
+"src": "aic:16413",
+"title": "Portrait of an Officer",
+"artist": "Italian",
+"q": "office clerk"
+},
+"g_226": {
+"src": "aic:49616",
+"title": "Rainy Day, Paris",
+"artist": "Attributed to Théophile-Alexandre Steinlen\nFrench, born Switzerland, 1859-1923",
+"q": "rainy street"
+},
+"g_239": {
+"src": "aic:77611",
+"title": "A Rainy Night",
+"artist": "Helen Hyde\nAmerican, 1868-1919",
+"q": "rainy street"
+},
+"g_241": {
+"src": "met:333797",
+"title": "A Woman Reading, after Pieter Janssens Elinga",
+"artist": "François Bonvin",
+"q": "woman reading"
+},
+"g_247": {
+"src": "met:417531",
+"title": "Le Paysan Portant son Sac (The Peasant Carrying his Sack), from \"Les Caprices\" Series A, The Florence Set",
+"artist": "Jacques Callot",
+"q": "lonely man"
+},
+"g_254": {
+"src": "aic:28146",
+"title": "Alpine Scene",
+"artist": "Gustave Doré (French, 1832–1883)",
+"q": "market scene"
+},
+"g_257": {
+"src": "met:788245",
+"title": "The Departure",
+"artist": "Thomas Rowlandson",
+"q": "rainy street"
+},
+"g_258": {
+"src": "met:435922",
+"title": "Salisbury Cathedral from the Bishop's Grounds",
+"artist": "John Constable",
+"q": "friends drinking"
+},
+"g_260": {
+"src": "aic:495",
+"title": "Coast Scene",
+"artist": "Attributed to Reinier Nooms (Reinier Zeeman; Dutch, c. 1623-c. 1668)",
+"q": "market scene"
+},
+"g_265": {
+"src": "aic:52736",
+"title": "The Letter, or The Spanish Conversation",
+"artist": "Jean-Honoré Fragonard\nFrench, 1732-1806",
+"q": "letter writing"
+},
+"g_268": {
+"src": "met:341666",
+"title": "The orange market, with the Rialto Bridge beyond, Venice",
+"artist": "James Holland",
+"q": "market scene"
+},
+"g_270": {
+"src": "met:377674",
+"title": "Kitchen Scene with Kitchen Maid Preparing Fish, Christ at Emmaus in the Background, from Kitchen and Market Scenes with Biblical Scenes in the Background",
+"artist": "Jacob Matham",
+"q": "market scene"
+},
+"g_274": {
+"src": "aic:68792",
+"title": "A Marine",
+"artist": "George Inness (American, 1825–1894)",
+"q": "sunset landscape"
+},
+"g_277": {
+"src": "met:759522",
+"title": "Plate 33: Robert Macaire journalist, from 'Caricaturana,' published in Les Robert Macaires",
+"artist": "Honoré Daumier",
+"q": "man thinking"
+},
+"g_278": {
+"src": "met:757756",
+"title": "Plate 13: Robert Macaire, business agent, from 'Caricaturana,' published in Les Robert Macaires",
+"artist": "Honoré Daumier",
+"q": "man thinking"
+},
+"g_282": {
+"src": "aic:14574",
+"title": "Henri Degas and His Niece Lucie Degas (The Artist's Uncle and Cousin)",
+"artist": "Edgar Degas (French, 1834–1917)",
+"q": "cafe interior"
+},
+"g_283": {
+"src": "aic:186398",
+"title": "At the Window, rue des Trois Frères",
+"artist": "Camille Pissarro\nFrench, 1830–1903",
+"q": "woman at window"
+},
+"g_286": {
+"src": "aic:27281",
+"title": "Madam Pompadour",
+"artist": "Amedeo Modigliani\nItalian, 1884–1920",
+"q": "cafe interior"
+},
+"g_290": {
+"src": "met:382930",
+"title": "Windmill and  Lock, part VI, plate 27 from \"Liber Studiorum\"",
+"artist": "Joseph Mallord William Turner",
+"q": "sunset landscape"
+},
+"g_292": {
+"src": "aic:41316",
+"title": "Self-Portrait Etching at a Window",
+"artist": "Rembrandt van Rijn\nDutch, 1606-1669",
+"q": "woman at window"
+},
+"g_300": {
+"src": "met:811683",
+"title": "The Four Seasons of Love",
+"artist": "Thomas Rowlandson",
+"q": "man thinking"
+},
+"g_303": {
+"src": "aic:104215",
+"title": "Yacht Tavern, Erith",
+"artist": "Francis Seymour Haden\nEnglish, 1818-1910",
+"q": "tavern"
+},
+"g_311": {
+"src": "met:905180",
+"title": "A Meal in a Tavern",
+"artist": "Adriaen van Ostade",
+"q": "tavern"
+},
+"g_314": {
+"src": "met:382556",
+"title": "A Tavern at Monte Testaccio",
+"artist": "Jacob Wilhelm Mechau",
+"q": "tavern"
+},
+"g_315": {
+"src": "aic:15708",
+"title": "Portrait of a Man with Gray Hair",
+"artist": "Henry Raeburn (Scottish, 1756–1823)",
+"q": "young man portrait"
+},
+"g_319": {
+"src": "aic:80539",
+"title": "Portrait of a Young Lady",
+"artist": "Paulus Moreelse (Dutch, 1571–1638)",
+"q": "young man portrait"
+},
+"g_322": {
+"src": "met:334587",
+"title": "Portrait of a Young Man",
+"artist": "Goya (Francisco de Goya y Lucientes)",
+"q": "young man portrait"
+},
+"g_323": {
+"src": "aic:86259",
+"title": "The Artist's Mother Playing Checkers",
+"artist": "Edouard Jean Vuillard\nFrench, 1868-1940",
+"q": "card game"
+},
+"g_324": {
+"src": "met:435581",
+"title": "Portrait of a Young Man",
+"artist": "Antonello da Messina (Antonello di Giovanni d'Antonio)",
+"q": "young man portrait"
+},
+"g_328": {
+"src": "met:337311",
+"title": "Portrait of a Young Man",
+"artist": "Fulchran Jean Harriet",
+"q": "young man portrait"
+},
+"g_331": {
+"src": "aic:7390",
+"title": "Old Man with a Boy Reading",
+"artist": "Jean Jacques de Boissieu\nFrench, 1736-1810",
+"q": "old man"
+},
+"g_333": {
+"src": "aic:80621",
+"title": "The Game of Checkers",
+"artist": "Edouard Jean Vuillard\nFrench, 1868-1940",
+"q": "card game"
+},
+"g_334": {
+"src": "met:437851",
+"title": "Portrait of a Young Man",
+"artist": "Cosmè Tura (Cosimo di Domenico di Bonaventura)",
+"q": "young man portrait"
+},
+"g_336": {
+"src": "aic:70118",
+"title": "Old Man Lighting a Pipe",
+"artist": "Johann Carl Loth (German, 1623–1698)",
+"q": "old man"
+},
+"g_337": {
+"src": "aic:110869",
+"title": "Portrait of a Woman",
+"artist": "Flemish; possibly Antwerp",
+"q": "woman portrait"
+},
+"g_341": {
+"src": "aic:15303",
+"title": "Portrait of a Woman",
+"artist": "Attributed to Mathias Stoltenberg (Norwegian, 1799–1871)",
+"q": "woman portrait"
+},
+"g_345": {
+"src": "met:360725",
+"title": "Bearded old man",
+"artist": "Wenceslaus Hollar",
+"q": "old man"
+},
+"g_347": {
+"src": "met:361756",
+"title": "Portrait of a Young Woman",
+"artist": "Wenceslaus Hollar",
+"q": "woman portrait"
+},
+"g_350": {
+"src": "met:361644",
+"title": "Portrait of a Young Woman",
+"artist": "Wenceslaus Hollar",
+"q": "woman portrait"
+},
+"g_353": {
+"src": "met:436928",
+"title": "Girls at a Window",
+"artist": "Raimundo de Madrazo y Garreta",
+"q": "woman at window"
+},
+"g_358": {
+"src": "met:437000",
+"title": "Portrait of a Woman",
+"artist": "Master of the Castello Nativity",
+"q": "woman portrait"
+},
+"g_360": {
+"src": "met:437917",
+"title": "Portrait of a Woman",
+"artist": "Cornelis de Vos",
+"q": "woman portrait"
+},
+"g_363": {
+"src": "aic:111623",
+"title": "A Clump of Trees",
+"artist": "Constant Troyon (French, 1810–1865)",
+"q": "journey road"
+},
+"g_365": {
+"src": "aic:81539",
+"title": "On the Bank of the Seine, Bennecourt",
+"artist": "Claude Monet (French, 1840–1926)",
+"q": "bank"
+},
+"g_366": {
+"src": "aic:16340",
+"title": "Mountain Road with Travelers",
+"artist": "Joos de Momper, II (Flemish, 1564-1635)",
+"q": "journey road"
+},
+"g_367": {
+"src": "aic:180711",
+"title": "The Gulf of Salerno",
+"artist": "Joseph Wright of Derby (English, 1734-1797)",
+"q": "storm sea"
+},
+"g_368": {
+"src": "aic:28143",
+"title": "Architectural Landscape with Belisarius Receiving Alms",
+"artist": "Artist unknown (French, active 18th century)",
+"q": "school"
+},
+"g_371": {
+"src": "aic:21914",
+"title": "The Storm",
+"artist": "Georges Michel (French, 1763-1843)",
+"q": "storm sea"
+},
+"g_374": {
+"src": "aic:65353",
+"title": "The Storm",
+"artist": "George Inness (American, 1825–1894)",
+"q": "storm sea"
+},
+"g_376": {
+"src": "aic:6005",
+"title": "The Banks of the Marne in Winter",
+"artist": "Camille Pissarro (French, 1830–1903)",
+"q": "bank"
+},
+"g_377": {
+"src": "aic:13151",
+"title": "Storm",
+"artist": "Anders Zorn\nSwedish, 1860-1920",
+"q": "storm sea"
+},
+"g_379": {
+"src": "met:788238",
+"title": "The Library",
+"artist": "Thomas Rowlandson",
+"q": "library"
+},
+"g_387": {
+"src": "met:855949",
+"title": "Bank of wildflowers",
+"artist": "Andrew Nicholl",
+"q": "bank"
+},
+"g_394": {
+"src": "aic:19333",
+"title": "Kitchen Still Life",
+"artist": "Attributed to Paolo Antonio Barbieri (Italian, 1603–1649)",
+"q": "kitchen"
+},
+"g_401": {
+"src": "met:646161",
+"title": "A Fool with an Owl and a Woman at a Window",
+"artist": "Pieter de Jode II",
+"q": "woman at window"
+},
+"g_402": {
+"src": "met:338286",
+"title": "The Virgin at the Window",
+"artist": "Barthel Beham",
+"q": "woman at window"
+},
+"g_403": {
+"src": "aic:12895",
+"title": "View of Pirna with the Fortress of Sonnenstein",
+"artist": "Bernardo Bellotto (Italian, 1721–1780)",
+"q": "journey road"
+},
+"g_415": {
+"src": "aic:55787",
+"title": "Woman in the Kitchen Garden",
+"artist": "Camille Pissarro\nFrench, 1830-1903",
+"q": "kitchen"
+},
+"g_420": {
+"src": "met:372703",
+"title": "The Kitchen",
+"artist": "James McNeill Whistler",
+"q": "kitchen"
+},
+"g_421": {
+"src": "met:372491",
+"title": "The Kitchen",
+"artist": "James McNeill Whistler",
+"q": "kitchen"
+}
+}

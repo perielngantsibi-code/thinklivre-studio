@@ -1,0 +1,50 @@
+name: Créer une vidéo
+run-name: "🎬 ${{ inputs.sujet }} [${{ inputs.uid }}]"
+on:
+  workflow_dispatch:
+    inputs:
+      texte: {description: "Identifiant du texte", required: true}
+      sujet: {description: "Sujet (affichage)", required: false, default: "vidéo"}
+      uid: {description: "Identifiant unique de la demande", required: true}
+      voix: {description: "Fichier voix MP3 dans le dépôt (facultatif)", required: false, default: ""}
+permissions:
+  contents: write
+jobs:
+  video:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - name: Outils (ffmpeg)
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-liberation > /dev/null
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11", cache: pip, cache-dependency-path: app/requirements.txt}
+      - name: Bibliothèques Python
+        run: |
+          pip install -q torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -q -r app/requirements.txt
+      - name: Modèles (cache)
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/huggingface
+            modele_asr
+          key: modeles-v1
+      - name: Modèle de reconnaissance vocale
+        run: |
+          if [ ! -d modele_asr ]; then
+            curl -sSL -o /tmp/m.tar.bz2 https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8.tar.bz2
+            tar xjf /tmp/m.tar.bz2 && mv sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8 modele_asr
+          fi
+      - name: Fabrication de la vidéo
+        env:
+          SECRETS: ${{ toJSON(secrets) }}
+          SHERPA_MODEL: ${{ github.workspace }}/modele_asr
+          LIBRARY_INDEX: ${{ github.workspace }}/app/library_index.npz
+          ENGINE_PYTHON: python
+        run: python gh_job.py "${{ inputs.texte }}" "${{ inputs.voix }}"
+      - name: Publication de la vidéo
+        env: {GH_TOKEN: "${{ github.token }}"}
+        run: |
+          gh release create "video-${{ inputs.uid }}" out/video.mp4 out/miniature.jpg \
+            --title "${{ inputs.sujet }}" --notes-file out/description.txt --target "${{ github.sha }}"

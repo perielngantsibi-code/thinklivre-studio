@@ -1,0 +1,588 @@
+{
+ "comptes": [
+  "Laura book",
+  "Think Read",
+  "Think Livre",
+  "Herlina",
+  "Paul",
+  "Juliana book"
+ ],
+ "livres": [
+  {
+   "titre": "Influence et manipulation",
+   "auteur": "Robert Cialdini",
+   "categorie": "Pouvoir et stratégie",
+   "cover": "cover_influence-et-manipulation.png"
+  },
+  {
+   "titre": "L'art d'avoir toujours raison",
+   "auteur": "Arthur Schopenhauer",
+   "categorie": "Pouvoir et stratégie",
+   "cover": "book_schop3d.png"
+  },
+  {
+   "titre": "L'art de la guerre",
+   "auteur": "Sun Tzu",
+   "categorie": "Pouvoir et stratégie",
+   "cover": "cover_l-art-de-la-guerre.png"
+  },
+  {
+   "titre": "La 50e loi",
+   "auteur": "Robert Greene et 50 Cent",
+   "categorie": "Pouvoir et stratégie",
+   "cover": "cover_la-50e-loi.png"
+  },
+  {
+   "titre": "Le pouvoir rhétorique",
+   "auteur": "Clément Viktorovitch",
+   "categorie": "Pouvoir et stratégie",
+   "cover": "cover_le-pouvoir-rhetorique.png"
+  },
+  {
+   "titre": "Le Prince",
+   "auteur": "Nicolas Machiavel",
+   "categorie": "Pouvoir et stratégie",
+   "cover": "cover_le-prince.png"
+  },
+  {
+   "titre": "Le traité des cinq roues",
+   "auteur": "Miyamoto Musashi",
+   "categorie": "Pouvoir et stratégie",
+   "cover": "cover_le-traite-des-cinq-roues.png"
+  },
+  {
+   "titre": "Les lois de la nature humaine",
+   "auteur": "Robert Greene",
+   "categorie": "Pouvoir et stratégie",
+   "cover": "cover_les-lois-de-la-nature-humaine.png"
+  },
+  {
+   "titre": "Plus malin que le Diable",
+   "auteur": "Napoléon Hill",
+   "categorie": "Pouvoir et stratégie",
+   "cover": "book_diable3d.png"
+  },
+  {
+   "titre": "Poutine, la stratégie du désordre",
+   "auteur": "Isabelle Mandraud et Julien Théron",
+   "categorie": "Pouvoir et stratégie",
+   "cover": "cover_poutine-la-strategie-du-desordre.png"
+  },
+  {
+   "titre": "Power, les 48 lois du pouvoir",
+   "auteur": "Robert Greene",
+   "categorie": "Pouvoir et stratégie",
+   "cover": "book3d.png"
+  },
+  {
+   "titre": "Système 1 / Système 2",
+   "auteur": "Daniel Kahneman",
+   "categorie": "Pouvoir et stratégie",
+   "cover": "cover_systeme-1-systeme-2.png"
+  },
+  {
+   "titre": "Travailler avec l'ennemi",
+   "auteur": "Mike Leibling",
+   "categorie": "Pouvoir et stratégie",
+   "cover": "cover_travailler-avec-l-ennemi.png"
+  },
+  {
+   "titre": "Avoir le courage de ne pas être aimé",
+   "auteur": "Ichiro Kishimi et Fumitake Koga",
+   "categorie": "Confiance en soi",
+   "cover": "cover_avoir-le-courage-de-ne-pas-etre-aime.png"
+  },
+  {
+   "titre": "Impossible de grandir",
+   "auteur": "Fatou Diome",
+   "categorie": "Confiance en soi",
+   "cover": "cover_impossible-de-grandir.png"
+  },
+  {
+   "titre": "L'art subtil de s'en foutre",
+   "auteur": "Mark Manson",
+   "categorie": "Confiance en soi",
+   "cover": "cover_l-art-subtil-de-s-en-foutre.png"
+  },
+  {
+   "titre": "L'intelligence émotionnelle",
+   "auteur": "Daniel Goleman",
+   "categorie": "Confiance en soi",
+   "cover": "cover_l-intelligence-emotionnelle.png"
+  },
+  {
+   "titre": "La confiance en soi",
+   "auteur": "Charles Pépin",
+   "categorie": "Confiance en soi",
+   "cover": "cover_la-confiance-en-soi.png"
+  },
+  {
+   "titre": "Le pouvoir de la confiance en soi",
+   "auteur": "Brian Tracy",
+   "categorie": "Confiance en soi",
+   "cover": "cover_le-pouvoir-de-la-confiance-en-soi.png"
+  },
+  {
+   "titre": "Le principe responsabilité",
+   "auteur": "Hans Jonas",
+   "categorie": "Confiance en soi",
+   "cover": "cover_le-principe-responsabilite.png"
+  },
+  {
+   "titre": "Les vertus de l'échec",
+   "auteur": "Charles Pépin",
+   "categorie": "Confiance en soi",
+   "cover": "cover_les-vertus-de-l-echec.png"
+  },
+  {
+   "titre": "Maîtrisez vos émotions",
+   "auteur": "Thibaut Meurisse",
+   "categorie": "Confiance en soi",
+   "cover": "cover_maitrisez-vos-emotions.png"
+  },
+  {
+   "titre": "Plus rien ne pourra me blesser",
+   "auteur": "David Goggins",
+   "categorie": "Confiance en soi",
+   "cover": "cover_plus-rien-ne-pourra-me-blesser.png"
+  },
+  {
+   "titre": "Surmonter ses complexes",
+   "auteur": "Bénédicte Nadaud et Karine Zagaroli",
+   "categorie": "Confiance en soi",
+   "cover": "cover_surmonter-ses-complexes.png"
+  },
+  {
+   "titre": "Tout le monde n'a pas eu la chance de rater ses études",
+   "auteur": "Olivier Roland",
+   "categorie": "Confiance en soi",
+   "cover": "book_roland3d.png"
+  },
+  {
+   "titre": "Tu vas tout déchirer !",
+   "auteur": "Jen Sincero",
+   "categorie": "Confiance en soi",
+   "cover": "cover_tu-vas-tout-dechirer.png"
+  },
+  {
+   "titre": "Un rien peut tout changer",
+   "auteur": "James Clear",
+   "categorie": "Confiance en soi",
+   "cover": "cover_un-rien-peut-tout-changer.png"
+  },
+  {
+   "titre": "Arrêtez d'oublier ce que vous lisez !",
+   "auteur": "Eliott Meunier",
+   "categorie": "Discipline et réussite",
+   "cover": "cover_arretez-d-oublier-ce-que-vous-lisez.png"
+  },
+  {
+   "titre": "Atteindre l'excellence",
+   "auteur": "Robert Greene",
+   "categorie": "Discipline et réussite",
+   "cover": "cover_atteindre-l-excellence.png"
+  },
+  {
+   "titre": "L'effet cumulé",
+   "auteur": "Darren Hardy",
+   "categorie": "Discipline et réussite",
+   "cover": "cover_l-effet-cumule.png"
+  },
+  {
+   "titre": "L'ego est l'ennemi",
+   "auteur": "Ryan Holiday",
+   "categorie": "Discipline et réussite",
+   "cover": "cover_l-ego-est-l-ennemi.png"
+  },
+  {
+   "titre": "La clé de la maîtrise",
+   "auteur": "Charles F. Haanel",
+   "categorie": "Discipline et réussite",
+   "cover": "cover_la-cle-de-la-maitrise.png"
+  },
+  {
+   "titre": "Le livre des décisions",
+   "auteur": "Mikael Krogerus et Roman Tschäppeler",
+   "categorie": "Discipline et réussite",
+   "cover": "cover_le-livre-des-decisions.png"
+  },
+  {
+   "titre": "Les 7 habitudes de ceux qui réalisent tout ce qu'ils entreprennent",
+   "auteur": "Stephen R. Covey",
+   "categorie": "Discipline et réussite",
+   "cover": "cover_les-7-habitudes-de-ceux-qui-realisent-tout-ce-qu-i.png"
+  },
+  {
+   "titre": "Miracle Morning",
+   "auteur": "Hal Elrod",
+   "categorie": "Discipline et réussite",
+   "cover": "cover_miracle-morning.png"
+  },
+  {
+   "titre": "The One Thing",
+   "auteur": "Gary Keller et Jay Papasan",
+   "categorie": "Discipline et réussite",
+   "cover": "cover_the-one-thing.png"
+  },
+  {
+   "titre": "Trouver son ikigaï",
+   "auteur": "Christie Vanbremeersch",
+   "categorie": "Discipline et réussite",
+   "cover": "cover_trouver-son-ikigai.png"
+  },
+  {
+   "titre": "Devenir super-conscient",
+   "auteur": "Joe Dispenza",
+   "categorie": "Sagesse et philosophie",
+   "cover": "cover_devenir-super-conscient.png"
+  },
+  {
+   "titre": "Je dirai malgré tout que cette vie fut belle",
+   "auteur": "Jean d'Ormesson",
+   "categorie": "Sagesse et philosophie",
+   "cover": "cover_je-dirai-malgre-tout-que-cette-vie-fut-belle.png"
+  },
+  {
+   "titre": "L'Alchimiste",
+   "auteur": "Paulo Coelho",
+   "categorie": "Sagesse et philosophie",
+   "cover": "cover_l-alchimiste.png"
+  },
+  {
+   "titre": "L'homme est le reflet de ses pensées",
+   "auteur": "James Allen",
+   "categorie": "Sagesse et philosophie",
+   "cover": "cover_l-homme-est-le-reflet-de-ses-pensees.png"
+  },
+  {
+   "titre": "L'homme spirituel",
+   "auteur": "Watchman Nee",
+   "categorie": "Sagesse et philosophie",
+   "cover": "cover_l-homme-spirituel.png"
+  },
+  {
+   "titre": "L'obstacle est le chemin",
+   "auteur": "Ryan Holiday",
+   "categorie": "Sagesse et philosophie",
+   "cover": "cover_l-obstacle-est-le-chemin.png"
+  },
+  {
+   "titre": "La philosophie tout simplement !",
+   "auteur": "Claude-Henry du Bord",
+   "categorie": "Sagesse et philosophie",
+   "cover": "cover_la-philosophie-tout-simplement.png"
+  },
+  {
+   "titre": "Le hasard n'existe pas",
+   "auteur": "K. O. Schmidt",
+   "categorie": "Sagesse et philosophie",
+   "cover": "cover_le-hasard-n-existe-pas.png"
+  },
+  {
+   "titre": "Le Petit Prince",
+   "auteur": "Antoine de Saint-Exupéry",
+   "categorie": "Sagesse et philosophie",
+   "cover": "cover_le-petit-prince.png"
+  },
+  {
+   "titre": "Le pouvoir de la Kabbale",
+   "auteur": "Rav Berg",
+   "categorie": "Sagesse et philosophie",
+   "cover": "cover_le-pouvoir-de-la-kabbale.png"
+  },
+  {
+   "titre": "Le pouvoir du moment présent",
+   "auteur": "Eckhart Tolle",
+   "categorie": "Sagesse et philosophie",
+   "cover": "cover_le-pouvoir-du-moment-present.png"
+  },
+  {
+   "titre": "Les quatre accords toltèques",
+   "auteur": "Don Miguel Ruiz",
+   "categorie": "Sagesse et philosophie",
+   "cover": "cover_les-quatre-accords-tolteques.png"
+  },
+  {
+   "titre": "Pensées pour moi-même",
+   "auteur": "Marc Aurèle",
+   "categorie": "Sagesse et philosophie",
+   "cover": "cover_pensees-pour-moi-meme.png"
+  },
+  {
+   "titre": "Brûlée vive",
+   "auteur": "Souad",
+   "categorie": "Afrique",
+   "cover": "cover_brulee-vive.png"
+  },
+  {
+   "titre": "Chambre 7",
+   "auteur": "Faty Dieng",
+   "categorie": "Afrique",
+   "cover": "cover_chambre-7.png"
+  },
+  {
+   "titre": "De quoi aimer vivre",
+   "auteur": "Fatou Diome",
+   "categorie": "Afrique",
+   "cover": "cover_de-quoi-aimer-vivre.png"
+  },
+  {
+   "titre": "Douleur intime",
+   "auteur": "Fatou Diomandé",
+   "categorie": "Afrique",
+   "cover": "cover_douleur-intime.png"
+  },
+  {
+   "titre": "Inassouvies, nos vies",
+   "auteur": "Fatou Diome",
+   "categorie": "Afrique",
+   "cover": "cover_inassouvies-nos-vies.png"
+  },
+  {
+   "titre": "La chèvre de ma mère",
+   "auteur": "Ricardo Kaniama",
+   "categorie": "Afrique",
+   "cover": "cover_la-chevre-de-ma-mere.png"
+  },
+  {
+   "titre": "Le ventre de l'Atlantique",
+   "auteur": "Fatou Diome",
+   "categorie": "Afrique",
+   "cover": "cover_le-ventre-de-l-atlantique.png"
+  },
+  {
+   "titre": "Les frasques d'Ebinto",
+   "auteur": "Amadou Koné",
+   "categorie": "Afrique",
+   "cover": "cover_les-frasques-d-ebinto.png"
+  },
+  {
+   "titre": "Peau noire, masques blancs",
+   "auteur": "Frantz Fanon",
+   "categorie": "Afrique",
+   "cover": "cover_peau-noire-masques-blancs.png"
+  },
+  {
+   "titre": "Pour le bonheur des miens",
+   "auteur": "Macaire Etty",
+   "categorie": "Afrique",
+   "cover": "cover_pour-le-bonheur-des-miens.png"
+  },
+  {
+   "titre": "Thomas Sankara parle",
+   "auteur": "Thomas Sankara",
+   "categorie": "Afrique",
+   "cover": "cover_thomas-sankara-parle.png"
+  },
+  {
+   "titre": "Tout s'effondre",
+   "auteur": "Chinua Achebe",
+   "categorie": "Afrique",
+   "cover": "cover_tout-s-effondre.png"
+  },
+  {
+   "titre": "Une si longue lettre",
+   "auteur": "Mariama Bâ",
+   "categorie": "Afrique",
+   "cover": "cover_une-si-longue-lettre.png"
+  },
+  {
+   "titre": "L'art de négocier avec la méthode Harvard",
+   "auteur": "Maurice A. Bercoff",
+   "categorie": "Argent",
+   "cover": "cover_l-art-de-negocier-avec-la-methode-harvard.png"
+  },
+  {
+   "titre": "L'autoroute du millionnaire",
+   "auteur": "MJ DeMarco",
+   "categorie": "Argent",
+   "cover": "cover_l-autoroute-du-millionnaire.png"
+  },
+  {
+   "titre": "L'homme le plus riche de Babylone",
+   "auteur": "George S. Clason",
+   "categorie": "Argent",
+   "cover": "cover_l-homme-le-plus-riche-de-babylone.png"
+  },
+  {
+   "titre": "L'investisseur intelligent",
+   "auteur": "Benjamin Graham",
+   "categorie": "Argent",
+   "cover": "cover_l-investisseur-intelligent.png"
+  },
+  {
+   "titre": "La magie de voir grand",
+   "auteur": "David J. Schwartz",
+   "categorie": "Argent",
+   "cover": "cover_la-magie-de-voir-grand.png"
+  },
+  {
+   "titre": "La psychologie de l'argent",
+   "auteur": "Morgan Housel",
+   "categorie": "Argent",
+   "cover": "book_argent3d.png"
+  },
+  {
+   "titre": "Le principe 80/20",
+   "auteur": "Richard Koch",
+   "categorie": "Argent",
+   "cover": "cover_le-principe-80-20.png"
+  },
+  {
+   "titre": "Les secrets de la loi de l'attraction",
+   "auteur": "Xavier Cornette de Saint-Cyr",
+   "categorie": "Argent",
+   "cover": "cover_les-secrets-de-la-loi-de-l-attraction.png"
+  },
+  {
+   "titre": "Ne coupez jamais la poire en deux",
+   "auteur": "Chris Voss et Tahl Raz",
+   "categorie": "Argent",
+   "cover": "cover_ne-coupez-jamais-la-poire-en-deux.png"
+  },
+  {
+   "titre": "Père riche, père pauvre",
+   "auteur": "Robert T. Kiyosaki",
+   "categorie": "Argent",
+   "cover": "cover_pere-riche-pere-pauvre.png"
+  },
+  {
+   "titre": "Réfléchissez et devenez riche",
+   "auteur": "Napoleon Hill",
+   "categorie": "Argent",
+   "cover": "cover_reflechissez-et-devenez-riche.png"
+  },
+  {
+   "titre": "Ce que les femmes attendent des hommes",
+   "auteur": "Lula Morale",
+   "categorie": "Femmes",
+   "cover": "cover_ce-que-les-femmes-attendent-des-hommes.png"
+  },
+  {
+   "titre": "Ces femmes qui aiment trop",
+   "auteur": "Robin Norwood",
+   "categorie": "Femmes",
+   "cover": "cover_ces-femmes-qui-aiment-trop.png"
+  },
+  {
+   "titre": "L'art de la guerre pour les femmes",
+   "auteur": "Catherine Huang et Arthur D. Rosenberg",
+   "categorie": "Femmes",
+   "cover": "cover_l-art-de-la-guerre-pour-les-femmes.png"
+  },
+  {
+   "titre": "Les 5 langages de l'amour",
+   "auteur": "Gary Chapman",
+   "categorie": "Femmes",
+   "cover": "cover_les-5-langages-de-l-amour.png"
+  },
+  {
+   "titre": "On ne naît pas soumise, on le devient",
+   "auteur": "Manon Garcia",
+   "categorie": "Femmes",
+   "cover": "cover_on-ne-nait-pas-soumise-on-le-devient.png"
+  },
+  {
+   "titre": "Orgueil et préjugés",
+   "auteur": "Jane Austen",
+   "categorie": "Femmes",
+   "cover": "cover_orgueil-et-prejuges.png"
+  },
+  {
+   "titre": "Trop bonne, trop conne !",
+   "auteur": "Anne Boutelant",
+   "categorie": "Femmes",
+   "cover": "cover_trop-bonne-trop-conne.png"
+  },
+  {
+   "titre": "Un homme, ça ne pleure pas",
+   "auteur": "Faïza Guène",
+   "categorie": "Femmes",
+   "cover": "cover_un-homme-ca-ne-pleure-pas.png"
+  },
+  {
+   "titre": "50 exercices pour prendre la parole en public",
+   "auteur": "Laurence Levasseur",
+   "categorie": "Charisme et séduction",
+   "cover": "cover_50-exercices-pour-prendre-la-parole-en-public.png"
+  },
+  {
+   "titre": "Ces gestes qui vous trahissent",
+   "auteur": "Joseph Messinger",
+   "categorie": "Charisme et séduction",
+   "cover": "cover_ces-gestes-qui-vous-trahissent.png"
+  },
+  {
+   "titre": "Comment parler à tout le monde",
+   "auteur": "Leil Lowndes",
+   "categorie": "Charisme et séduction",
+   "cover": "cover_comment-parler-a-tout-le-monde.png"
+  },
+  {
+   "titre": "Comment se faire des amis",
+   "auteur": "Dale Carnegie",
+   "categorie": "Charisme et séduction",
+   "cover": "cover_comment-se-faire-des-amis.png"
+  },
+  {
+   "titre": "L'art de la séduction",
+   "auteur": "Robert Greene",
+   "categorie": "Charisme et séduction",
+   "cover": "book_seduction3d.png"
+  },
+  {
+   "titre": "L'art du charisme",
+   "auteur": "Robert Mercier",
+   "categorie": "Charisme et séduction",
+   "cover": "cover_l-art-du-charisme.png"
+  },
+  {
+   "titre": "La drague pour les nuls",
+   "auteur": "Florence Escaravage",
+   "categorie": "Charisme et séduction",
+   "cover": "cover_la-drague-pour-les-nuls.png"
+  },
+  {
+   "titre": "La parole est un sport de combat",
+   "auteur": "Bertrand Périer",
+   "categorie": "Charisme et séduction",
+   "cover": "cover_la-parole-est-un-sport-de-combat.png"
+  },
+  {
+   "titre": "La femme de ménage voit tout",
+   "auteur": "Freida McFadden",
+   "categorie": "Autres",
+   "cover": "cover_la-femme-de-menage-voit-tout.png"
+  },
+  {
+   "titre": "La Métamorphose",
+   "auteur": "Franz Kafka",
+   "categorie": "Autres",
+   "cover": "cover_la-metamorphose.png"
+  },
+  {
+   "titre": "Le mariage parfait",
+   "auteur": "Jeneva Rose",
+   "categorie": "Autres",
+   "cover": "cover_le-mariage-parfait.png"
+  },
+  {
+   "titre": "Lettre au père",
+   "auteur": "Franz Kafka",
+   "categorie": "Autres",
+   "cover": "cover_lettre-au-pere.png"
+  },
+  {
+   "titre": "Une histoire populaire de l'humanité",
+   "auteur": "Chris Harman",
+   "categorie": "Autres",
+   "cover": "cover_une-histoire-populaire-de-l-humanite.png"
+  },
+  {
+   "titre": "Éduquer sans punir",
+   "auteur": "Thomas Gordon",
+   "categorie": "Autres",
+   "cover": "cover_eduquer-sans-punir.png"
+  }
+ ]
+}
