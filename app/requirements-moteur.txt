@@ -1,0 +1,7 @@
+sentence-transformers
+torch
+pillow
+numpy
+scipy
+soundfile
+sherpa-onnx

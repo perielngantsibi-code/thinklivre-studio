@@ -22,7 +22,7 @@ S=[norm(x["w"]) for x in sw]
 sm=difflib.SequenceMatcher(None,S,A,autojunk=False)
 for tag,i1,i2,j1,j2 in sm.get_opcodes():
     for k in range(i1,i2):
-        if tag=="equal": sw[k]["t"]=aw[j1+k-i1][1]
+        if tag=="equal": sw[k]["t"]=aw[j1+k-i1][1]; sw[k]["ok"]=1
         elif j2>j1:
             # spread proportionally
             f=(k-i1)/max(1,i2-i1); idx=j1+int(f*(j2-j1)); sw[k]["t"]=aw[min(idx,len(aw)-1)][1]

@@ -43,6 +43,10 @@ def run(job, store, progress):
     sh(["ffmpeg","-y","-loglevel","error","-i","voix.mp3","-af",VOICE_FX,"-ar","48000","voix_fx.wav"],work)
     sh(["ffmpeg","-y","-loglevel","error","-i","voix_fx.wav","-ac","1","-ar","16000","voix16.wav"],work)
     progress(15,"Synchro des sous-titres"); sh([PY,"asr.py"],work); sh([PY,"align.py"],work)
+    # la voix correspond-elle au texte ? (sinon sous-titres et images seraient décalés)
+    W=json.load(open(os.path.join(work,"words.json"))); ok=sum(1 for x in W if x.get("ok"))
+    if W and ok/len(W)<0.6:
+        raise Fail(f"La voix ne correspond pas au texte : seulement {ok} mots sur {len(W)} reconnus dans l'audio. Vérifie que le MP3 lit bien ce texte.")
     progress(25,"Choix des images")
     import autoplan; info=autoplan.make(work,{"book":job["livre"],"hook":job.get("hook","")})
     progress(30,"Son")
