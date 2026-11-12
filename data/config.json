@@ -1,11 +1,5 @@
 {
- "comptes": [
-  {
-   "nom": "Boy",
-   "secret": "EL_9T4D5SLN",
-   "actif": true
-  }
- ],
+ "comptes": [],
  "voice_id": "UBXZKOKbt62aLQHhc1Jm",
  "voice_nom": "François Louis"
 }
