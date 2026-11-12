@@ -22,7 +22,9 @@ if b.get("char"): char=b["char"]
 job={"id":tid+"_"+os.environ.get("GITHUB_RUN_ID","local"),"texte":t,"livre":{"titre":b["titre"],"auteur":b["auteur"],"cover":cover,"char":char},
      "voix_fichier":os.path.join(ROOT,voix) if voix else None,"hook":""}
 def progress(p,e): print(f"::notice title=Étape::{p}% — {e}",flush=True)
-res=pipeline.run(job,St(),progress)
+try: res=pipeline.run(job,St(),progress)
+except pipeline.Fail as e:
+    print(f"::error title=Vidéo non fabriquée::{str(e).replace(chr(10),' ')}",flush=True); sys.exit(1)
 os.makedirs(os.path.join(ROOT,"out"),exist_ok=True)
 shutil.copy(res["video"],os.path.join(ROOT,"out","video.mp4")); shutil.copy(res["thumb"],os.path.join(ROOT,"out","miniature.jpg"))
 open(os.path.join(ROOT,"out","description.txt"),"w").write(t.get("description",""))

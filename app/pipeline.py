@@ -1,5 +1,5 @@
 """Fabrication complète d'une vidéo (format cinéma) dans un dossier de travail."""
-import os, json, shutil, subprocess, time, urllib.request, sys
+import os, json, shutil, subprocess, time, urllib.request, urllib.error, sys
 HERE=os.path.dirname(os.path.abspath(__file__)); ROOT=os.path.dirname(HERE); MOTEUR=os.path.join(ROOT,"moteur")
 SHERPA=os.environ.get("SHERPA_MODEL", os.path.join(ROOT,"modele_asr"))
 PY=os.environ.get("ENGINE_PYTHON","python3")
@@ -12,17 +12,29 @@ def sh(cmd,cwd):
     if r.returncode: raise Fail((r.stderr or r.stdout)[-800:])
     return r.stdout
 def elevenlabs(text, accounts, voice_id, out):
+    if not voice_id: raise Fail("Aucune voix choisie (Profil → Voix officielle → Voice ID)")
     need=len(text); last=None
     for acc in accounts:
+        # crédits restants : seulement si la clé a le droit « User : Read » (sinon on essaie quand même)
         try:
             rq=urllib.request.Request("https://api.elevenlabs.io/v1/user/subscription",headers={"xi-api-key":acc["key"]})
             s=json.load(urllib.request.urlopen(rq,timeout=30)); left=s["character_limit"]-s["character_count"]
-            if left<need: last=f"{acc['nom']} : plus assez de crédits"; continue
+            if left<need: last=f"{acc['nom']} : plus assez de crédits ({left} restants, {need} nécessaires)"; continue
+        except urllib.error.HTTPError as e:
+            if e.code not in (401,403): last=f"{acc['nom']} : erreur {e.code}"; continue
+        except Exception as e: last=f"{acc['nom']} : {e}"; continue
+        try:
             body=json.dumps({"text":text,"model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.5,"similarity_boost":0.8,"style":0.2}}).encode()
             rq=urllib.request.Request(f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}?output_format=mp3_44100_128",data=body,
                 headers={"xi-api-key":acc["key"],"Content-Type":"application/json"})
             open(out,"wb").write(urllib.request.urlopen(rq,timeout=300).read()); return acc["nom"]
-        except Exception as e: last=f"{acc.get('nom')} : {e}"
+        except urllib.error.HTTPError as e:
+            detail=""
+            try: detail=json.loads(e.read().decode()).get("detail",{}); detail=detail.get("message",detail) if isinstance(detail,dict) else detail
+            except Exception: pass
+            msg={401:"clé refusée (vérifie la clé et le droit « Text to Speech »)",402:"crédits épuisés ou forfait insuffisant",404:"voix introuvable (vérifie le Voice ID)",429:"trop de demandes, réessaie plus tard"}.get(e.code,f"erreur {e.code}")
+            last=f"{acc['nom']} : {msg}" + (f" — {detail}" if detail else "")
+        except Exception as e: last=f"{acc['nom']} : {e}"
     raise Fail("Voix impossible avec ElevenLabs ("+str(last)+")")
 def run(job, store, progress):
     """job: dict(id, texte{script,description,titre}, livre{titre,auteur,cover,char}, voix_fichier?)"""
