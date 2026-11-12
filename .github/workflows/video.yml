@@ -54,15 +54,41 @@ jobs:
       - name: Publication de la vidéo
         env: {GH_TOKEN: "${{ github.token }}", SUJET: "${{ inputs.sujet }}", UID_: "${{ inputs.uid }}"}
         run: gh release create "video-$UID_" out/video.mp4 out/miniature.jpg --title "$SUJET" --notes-file out/description.txt --target "$GITHUB_SHA"
-      - name: Copie lisible dans l'appli (dépôt public thinklivre-app)
-        if: success()
-        env: {GH_TOKEN: "${{ secrets.PUBLIER_TOKEN }}", SUJET: "${{ inputs.sujet }}", UID_: "${{ inputs.uid }}", OWNER: "${{ github.repository_owner }}"}
-        run: |
-          if [ -z "$GH_TOKEN" ]; then echo "::warning::Lecture dans l'appli non activée (Profil → Activer la lecture des vidéos)"; exit 0; fi
-          gh release create "video-$UID_" out/video.mp4 out/miniature.jpg --repo "$OWNER/thinklivre-app" --title "$SUJET" --notes "Vidéo THINK LIVRE" || echo "::warning::copie publique impossible"
+      - name: Transmission à l'appli
+        uses: actions/upload-artifact@v4
+        with: {name: video, path: out/, retention-days: 1}
       - name: Ménage (voix envoyée)
         if: success() && inputs.voix != ''
         env: {GH_TOKEN: "${{ github.token }}", VOIX: "${{ inputs.voix }}"}
         run: |
           SHA=$(gh api "repos/$GITHUB_REPOSITORY/contents/$VOIX" --jq .sha) && \
           gh api -X DELETE "repos/$GITHUB_REPOSITORY/contents/$VOIX" -f message="Ménage : voix utilisée" -f sha="$SHA" -f branch=main > /dev/null || echo "ménage ignoré"
+
+  # Copie dans le site de l'appli (GitHub Pages) pour que l'iPhone puisse lire la vidéo.
+  # Une seule copie à la fois (pas de conflit si plusieurs vidéos finissent ensemble).
+  appli:
+    needs: video
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    concurrency: {group: publier-appli, cancel-in-progress: false}
+    steps:
+      - uses: actions/download-artifact@v4
+        with: {name: video, path: out}
+      - name: Copie dans le site de l'appli
+        env: {TOKEN: "${{ secrets.PUBLIER_TOKEN }}", UID_: "${{ inputs.uid }}", OWNER: "${{ github.repository_owner }}", GARDER: "12"}
+        run: |
+          if [ -z "$TOKEN" ]; then echo "::warning::Lecture dans l'appli non activée (Profil → Lecture des vidéos)"; exit 0; fi
+          git clone -q --depth 1 "https://x-access-token:$TOKEN@github.com/$OWNER/thinklivre-app.git" site && cd site
+          mkdir -p "v/$UID_" && cp ../out/video.mp4 ../out/miniature.jpg "v/$UID_/"
+          python3 - <<'PY'
+          import json, os, time, shutil
+          uid = os.environ["UID_"]; garder = int(os.environ["GARDER"]); f = "v/liste.json"
+          liste = json.load(open(f)) if os.path.exists(f) else []
+          liste = [x for x in liste if x["uid"] != uid] + [{"uid": uid, "t": int(time.time())}]
+          while len(liste) > garder:
+              vieux = liste.pop(0); shutil.rmtree(f"v/{vieux['uid']}", ignore_errors=True)
+          json.dump(liste, open(f, "w"))
+          PY
+          # une seule « photo » du site (l'historique ne grossit pas avec les vidéos)
+          git config user.name "THINK LIVRE Studio"; git config user.email "studio@users.noreply.github.com"
+          git checkout -q --orphan tmp && git add -A && git commit -qm "Site + vidéos récentes" && git push -q -f origin tmp:main
