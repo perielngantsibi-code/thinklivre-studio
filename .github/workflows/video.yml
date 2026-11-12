@@ -54,6 +54,12 @@ jobs:
       - name: Publication de la vidéo
         env: {GH_TOKEN: "${{ github.token }}", SUJET: "${{ inputs.sujet }}", UID_: "${{ inputs.uid }}"}
         run: gh release create "video-$UID_" out/video.mp4 out/miniature.jpg --title "$SUJET" --notes-file out/description.txt --target "$GITHUB_SHA"
+      - name: Copie lisible dans l'appli (dépôt public thinklivre-app)
+        if: success()
+        env: {GH_TOKEN: "${{ secrets.PUBLIER_TOKEN }}", SUJET: "${{ inputs.sujet }}", UID_: "${{ inputs.uid }}", OWNER: "${{ github.repository_owner }}"}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then echo "::warning::Lecture dans l'appli non activée (Profil → Activer la lecture des vidéos)"; exit 0; fi
+          gh release create "video-$UID_" out/video.mp4 out/miniature.jpg --repo "$OWNER/thinklivre-app" --title "$SUJET" --notes "Vidéo THINK LIVRE" || echo "::warning::copie publique impossible"
       - name: Ménage (voix envoyée)
         if: success() && inputs.voix != ''
         env: {GH_TOKEN: "${{ github.token }}", VOIX: "${{ inputs.voix }}"}
